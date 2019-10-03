@@ -1,0 +1,239 @@
+/* video */
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+.content {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+  /*button*/
+
+  #manuContent {
+    display: block;  
+    max-width:1340px;
+    min-width: 1340px;
+    min-block-size: 120px;
+    border:1px solid #ccc;
+    background:#fff;
+    padding:10px;
+    margin:0 auto 0;
+    opacity: 0.8;
+
+  }
+
+
+  .startTime{
+      height: 80px;
+      width: 80px;
+      border-radius:100px;
+      background: greenyellow;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      color: rgb(255, 251, 251);
+      font-weight: bolder;
+      font-size: 20px
+  }
+
+  .reStartTime{
+    height: 80px;
+    width: 80px;
+    border-radius:100px;
+    background: rgb(223, 5, 5);
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 15px
+  }
+
+
+
+  /*css reset */
+
+
+  
+  html, body, div, span, h1, h2, h3, h4, h5, h6, p, code, small, strike, strong, sub, sup, b, u, i {
+      border:0;
+      font-size:100%;
+      font:inherit;
+      vertical-align:baseline;
+      margin:0;
+      padding:0;
+  }
+  
+  article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+      display:block;
+  }
+  
+  body {
+      background-image: url('image/bg.jpg');
+      background-repeat: repeat-y;
+      background-repeat: repeat-x; 
+      /* opacity: .9;   */
+  }
+  
+  
+    
+
+    
+
+
+  strong {
+      font-weight:700;
+  }
+
+
+
+  #frame {
+      max-width:1340px;
+      min-width: 1340px;
+      max-height: 700px;
+      min-height: 700px;
+      border:1px solid #ccc;
+      background:#fff;
+      padding:10px;
+      margin:0 auto 0;
+      /* opacity: 0.8; */
+      background: #1B232F;
+  }
+  
+  
+  h1 {
+      font:normal bold 2em/1.8em"Helvetica Neue", Helvetica, Arial, sans-serif;
+      text-align:left;
+      border-bottom:1px solid #999;
+      padding:0;
+      width:auto;
+      color: white;
+  }
+  
+  h2 {
+      font:italic bold 1.3em/1.2em"Helvetica Neue", Helvetica, Arial, sans-serif;
+      padding:0;
+      text-align:center;
+      margin:20px 0;
+      color: #999;
+  }
+
+  #explanation {
+      color: #eee;
+  }
+  
+  p.pager {
+      margin:5px 0 5px;
+      font:bold 1em/1em"Helvetica Neue", Helvetica, Arial, sans-serif;
+      color:#999;
+  }
+
+  #question {
+    font:italic bold 1.3em/1.2em"Helvetica Neue", Helvetica, Arial, sans-serif;  
+    color: white;
+    text-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+
+  }
+  
+  img.question-image {
+      display:block;
+      max-width:250px;
+      margin:10px auto;
+      border:1px solid #ccc;
+      width:100%;
+      height:auto;
+  }
+  #choice-block {
+      display:block;
+      padding: 10px;
+      list-style-type: upper-alpha;
+      list-style-position: inside;
+      margin: 0 auto;
+      clear: both;  
+  }
+
+  /*botton alignment and design*/
+  /* #choice-block > li {
+    vertical-align: middle;
+    line-height: 6;
+    color: orangered;
+    font-weight: 800;  
+    float: left;
+    width: 46%;
+    height: 90px;
+    margin: 2%;
+  } */
+
+  #choice-block > li {
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 30px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    text-shadow: 0px 0px 1px rgba(235, 218, 218, 0.2);
+    box-shadow: 0 0 20px rgb(226, 228, 236);
+    border-radius: 10px;
+    float: left;
+    width: 46%;
+    height: 90px;
+    margin: 2%;
+    color: rgb(255, 145, 106);
+    font-size: 25px;
+  }
+  
+
+  #submitbutton {
+      font-size: 25px;
+      float: left;
+      width: 100%;
+      margin: 0 auto;
+      background:#5a6b8c;
+      display: block;
+      color: greenyellow !important;
+  }
+  #submitbutton:hover {
+      background:#7b8da6;
+  }
+  #explanation {
+      margin:0 auto;
+      padding:20px;
+      width:75%;
+  }
+  .choice-box {
+      display:list-item;
+      text-align:center;
+      /* margin:0 auto;
+      padding:10px 0; */
+      border:1px solid #666;
+      cursor:pointer;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+  }
+
+  #countdown, #countdown2 {
+    color: #1B232F;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
